@@ -2,39 +2,78 @@
 
 # DSW 2019 - DATASET SHOWCASE WORKSHOP ![GitHub repo size](https://img.shields.io/github/repo-size/marianaossilva/DSW2019.svg?color=d43f3a)
 
-> HitPredict - Hits and non-hits of music industry elements dataset
+[MusicSet]: https://marianaossilva.github.io/DSW2019
+
+> [MusicSet][MusicSet] - An Enhanced Music Dataset for Music Data Mining
 
 ## Dataset Information
 
-This repository stores a dataset collected from the DBLP computer science bibliography, an on-line reference for bibliographic information on major computer science publications. This dataset includes approximately 15 million records collected in September/2016. 
+This repository stores an open and enhanced dataset of musical elements (music, albums, and artists) suitable for music data mining. 
 
-From this dataset, two sub-datasets were created:
-- The first has the original database collected from the DBLP with name deduplication treatment.
-- The second presents three co-authorship social networks built using the snowball sampling technique.
+The attractive features of [MusicSet][MusicSet] include:
+* Integration and centralization of different musical data sources
+* Calculation of popularity scores and classification of hits and non-hits musical elements, varying from 1962 to 2018
+* Enriched metadata for music, artists, and albums from the US popular music industry
+* Availability of acoustic and lyrical resources
+* Unrestricted access in two formats: SQL database and compressed .csv files
+
+This is a **pre-publication release**. As such, this repository as well as the data are subject to change. 
 
 ### Dataset Statistics
 
 ---
 **Data** | **# Records**
 --- | ---
-Publications in articles | 1,505,020
-Authors | 1,779,971
-Publications in proceedings | 31,549
-Publications in inproceedings | 1,861,226
-Relation between authors and publications | 9,707,161
-**Total** | **14,884,927**
+Songs | 20,772
+Artists | 10,988
+Albums | 25,378
+Lyrics | 20,768
+Acoustic Features | 20,728
+Genres | 950
 ---
 
-## Files
+## Format and Usage
 
-* [DBLP](https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8) - Contains the original dataset collected from DBLP
-* [DBLP_name_desambiguation](https://drive.google.com/open?id=0BxcdZUa_SVMcUWhia01EUDVTY0U) - Contains collected data with ambiguous names resolved
-* [DBLP_social_networks](https://drive.google.com/open?id=0BxcdZUa_SVMcVTI4WnhscTNESnM) - Contains three co-authorship social networks
+[MusicSet][MusicSet] is available in a public repository in two different formats
 
-## Source (citation)
+1. **Relational Database** 
+	- **[musicset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (XGB) 
+2. **.csv Tables**
+	- **[musicset_metadata.zip]**: Contains textual and numeric information about songs, artists, and albums (XGB)
+	- **[musicset_popularity.zip]**: Contains nine tables of musical popularity information (XGB)
+	- **[musicset_songfeatures.zip]**: Contains lyrics and acoustic fingerprints of the songs collected (XGB)
 
-[1] Mariana O. Silva, Michele A. Brandão. “Deduplicação de Nomes e Redes de Co-autoria na DBLP”. Em: SBBD Dataset Showcase Workshop, pp. 203-211. Uberlândia, MG.
+[musicset.sql]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
+[musicset_metadata.zip]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
+[musicset_popularity.zip]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
+[musicset_songfeatures.zip]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
 
-## Usage
+## Applicability
 
-If you would like to use the datasets, please cite our paper [1].
+* **Metadata Analysis**: [Collaboration profiles and their impact on musical success][SAC], ACM/SAC, Cyprus, 2019.
+* **Hit Song Science**: [Causality analysis between collaboration profiles and musical success][WEB], Technical Report, Brazil, 2019.
+
+[SAC]: https://dl.acm.org/citation.cfm?id=3297280.3297483
+[WEB]: https://homepages.dcc.ufmg.br/˜mirella/projs/apoena/publicacoes.html
+
+<!-- ## Source (citation)
+
+  ```
+  @inproceedings{fma_dataset,
+    title = {FMA: A Dataset for Music Analysis},
+    author = {Defferrard, Micha\"el and Benzi, Kirell and Vandergheynst, Pierre and Bresson, Xavier},
+    booktitle = {18th International Society for Music Information Retrieval Conference},
+    year = {2017},
+    url = {https://arxiv.org/abs/1612.01840},
+  }
+  ``` -->
+
+## License
+
+* The dataset is meant for research purposes.
+
+## Acknowledgments
+
+> The work is supported by [CNPq], Brazil.
+
+[CNPq]: http://www.cnpq.br/
