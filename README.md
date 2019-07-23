@@ -54,7 +54,7 @@ Genres | 950
 * **Hit Song Science**: [Causality analysis between collaboration profiles and musical success][WEB], Technical Report, Brazil, 2019.
 
 [SAC]: https://dl.acm.org/citation.cfm?id=3297280.3297483
-[WEB]: https://homepages.dcc.ufmg.br/˜mirella/projs/apoena/publicacoes.html
+[WEB]: https://homepages.dcc.ufmg.br/~mirella/projs/apoena/publicacoes.html
 
 <!-- ## Source (citation)
 
