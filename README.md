@@ -2,15 +2,15 @@
 
 # DSW 2019 - DATASET SHOWCASE WORKSHOP ![GitHub repo size](https://img.shields.io/github/repo-size/marianaossilva/DSW2019.svg?color=d43f3a)
 
-[MusicSet]: https://marianaossilva.github.io/DSW2019
+[MusicOSet]: https://marianaossilva.github.io/DSW2019
 
-> [MusicSet][MusicSet] - An Enhanced Music Dataset for Music Data Mining
+> [MusicOSet][MusicOSet] - An Enhanced Music Dataset for Music Data Mining
 
 ## Dataset Information
 
 This repository stores an open and enhanced dataset of musical elements (music, albums, and artists) suitable for music data mining. 
 
-The attractive features of [MusicSet][MusicSet] include:
+The attractive features of [MusicOSet][MusicOSet] include:
 * Integration and centralization of different musical data sources
 * Calculation of popularity scores and classification of hits and non-hits musical elements, varying from 1962 to 2018
 * Enriched metadata for music, artists, and albums from the US popular music industry
@@ -34,7 +34,7 @@ Genres | 950
 
 ## Format and Usage
 
-[MusicSet][MusicSet] is available in a public repository in two different formats
+[MusicOSet][MusicOSet] is available in a public repository in two different formats
 
 1. **Relational Database** 
 	- **[musicoset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (comming soon) 
@@ -43,10 +43,10 @@ Genres | 950
 	- **[musicoset_popularity.zip]**: Contains nine tables of musical popularity information (6,25MB)
 	- **[musicoset_songfeatures.zip]**: Contains lyrics and acoustic fingerprints of the songs collected (60,9MB)
 
-[musicoset.sql]: 
-[musicoset_metadata.zip]: 
-[musicoset_popularity.zip]: 
-[musicoset_songfeatures.zip]: 
+[musicoset.sql]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/
+[musicoset_metadata.zip]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/musicoset_metadata.zip
+[musicoset_popularity.zip]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/musicoset_popularity.zip
+[musicoset_songfeatures.zip]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/musicoset_songfeatures.zip
 
 ## Applicability
 
@@ -54,7 +54,7 @@ Genres | 950
 * **Hit Song Science**: [Causality analysis between collaboration profiles and musical success][WEB], Technical Report, Brazil, 2019.
 
 [SAC]: https://dl.acm.org/citation.cfm?id=3297280.3297483
-[WEB]: https://homepages.dcc.ufmg.br/~mirella/projs/apoena/publicacoes.html
+[WEB]: https://homepages.dcc.ufmg.br/~mirella/projs/bade/
 
 <!-- ## Source (citation)
 
