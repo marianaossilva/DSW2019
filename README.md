@@ -37,16 +37,16 @@ Genres | 950
 [MusicSet][MusicSet] is available in a public repository in two different formats
 
 1. **Relational Database** 
-	- **[musicset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (XGB) 
+	- **[musicoset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (comming soon) 
 2. **.csv Tables**
-	- **[musicset_metadata.zip]**: Contains textual and numeric information about songs, artists, and albums (XGB)
-	- **[musicset_popularity.zip]**: Contains nine tables of musical popularity information (XGB)
-	- **[musicset_songfeatures.zip]**: Contains lyrics and acoustic fingerprints of the songs collected (XGB)
+	- **[musicoset_metadata.zip]**: Contains textual and numeric information about songs, artists, and albums (6,49MB)
+	- **[musicoset_popularity.zip]**: Contains nine tables of musical popularity information (6,25MB)
+	- **[musicoset_songfeatures.zip]**: Contains lyrics and acoustic fingerprints of the songs collected (60,9MB)
 
-[musicset.sql]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
-[musicset_metadata.zip]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
-[musicset_popularity.zip]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
-[musicset_songfeatures.zip]: https://drive.google.com/open?id=0BxcdZUa_SVMcdzhLeWJuREd0UW8
+[musicoset.sql]: 
+[musicoset_metadata.zip]: 
+[musicoset_popularity.zip]: 
+[musicoset_songfeatures.zip]: 
 
 ## Applicability
 
