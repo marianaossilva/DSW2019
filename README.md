@@ -40,7 +40,7 @@ Genres | 950
 	- **[musicoset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (comming soon) 
 2. **.csv Tables**
 	- **[musicoset_metadata.zip]**: Contains textual and numeric information about songs, artists, and albums (6,49MB)
-	- **[musicoset_popularity.zip]**: Contains nine tables of musical popularity information (6,25MB)
+	- **[musicoset_popularity.zip]**: Contains nine tables of musical popularity information (11,5MB)
 	- **[musicoset_songfeatures.zip]**: Contains lyrics and acoustic fingerprints of the songs collected (60,9MB)
 
 [musicoset.sql]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/
