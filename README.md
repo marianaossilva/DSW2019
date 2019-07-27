@@ -37,7 +37,7 @@ Genres | 950
 [MusicOSet][MusicOSet] is available in a public repository in two different formats
 
 1. **Relational Database** 
-	- **[musicoset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (comming soon) 
+	- **[musicoset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (coming soon) 
 2. **.csv Tables**
 	- **[musicoset_metadata.zip]**: Contains textual and numeric information about songs, artists, and albums (6,49MB)
 	- **[musicoset_popularity.zip]**: Contains nine tables of musical popularity information (11,5MB)
