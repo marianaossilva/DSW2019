@@ -15,6 +15,9 @@
   .team-item .contetn {
     padding: 15px 20px;
   }
+  .counter-box {
+    margin-bottom: 30px;
+  }
 }
 
 /* tablets */
@@ -68,6 +71,9 @@
     font-size: 14px;
   }
   .skill-area img {
+    margin-bottom: 30px;
+  }
+  .counter-box {
     margin-bottom: 30px;
   }
   #blog .blog-item-wrapper {
@@ -150,6 +156,9 @@
   #about .sec-title h3 {
     font-size: 22px;
     line-height: 36px;
+  }
+  .counter-box {
+    margin-bottom: 30px;
   }
   .about-area img {
     margin-top: 30px;
