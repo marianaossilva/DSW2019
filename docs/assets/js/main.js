@@ -50,7 +50,7 @@
     CounterUp
     ========================================================================== */
     $('.counter').counterUp({
-      time: 1000
+      time: 2000
     }); 
 
      /* Testimonials Carousel 
