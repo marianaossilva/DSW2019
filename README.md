@@ -37,13 +37,13 @@ Genres | 950
 [MusicOSet][MusicOSet] is available in a public repository in two different formats
 
 1. **Relational Database** 
-	- **[musicoset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (coming soon) 
+	- **[musicoset.sql]**:  SQL file that will create the relational database and subsequently loads all the information in the tables by a MySQL installation (343MB) 
 2. **.csv Tables**
 	- **[musicoset_metadata.zip]**: Contains textual and numeric information about songs, artists, and albums (7,05MB)
 	- **[musicoset_popularity.zip]**: Contains nine tables of musical popularity information (14,1MB)
 	- **[musicoset_songfeatures.zip]**: Contains lyrics and acoustic fingerprints of the songs collected (22,5MB)
 
-[musicoset.sql]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/
+[musicoset.sql]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/musicoset.sql
 [musicoset_metadata.zip]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/musicoset_metadata.zip
 [musicoset_popularity.zip]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/musicoset_popularity.zip
 [musicoset_songfeatures.zip]: https://github.com/marianaossilva/DSW2019/blob/master/docs/assets/data/musicoset_songfeatures.zip
