@@ -24,12 +24,12 @@ This is a **pre-publication release**. As such, this repository as well as the d
 ---
 **Data** | **# Records**
 --- | ---
-Songs | 20,772
-Artists | 10,988
-Albums | 25,378
-Lyrics | 20,768
-Acoustic Features | 20,728
-Genres | 950
+Songs | 20,405
+Artists | 11,518
+Albums | 26,522
+Lyrics | 19,664
+Acoustic Features | 20,405
+Genres | 1,561
 ---
 
 ## Schema
