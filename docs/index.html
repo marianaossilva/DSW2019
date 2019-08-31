@@ -54,6 +54,16 @@
                 </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#schema">
+                  Schema
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#content">
+                  Content
+                </a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#blog">
                   Applicability
                 </a>
@@ -238,6 +248,210 @@
       </div>
     </section>
     <!-- Counter Section End -->
+
+    <!-- About Section start -->
+    <div id="schema" class="about-area section-padding bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
+              <div>
+                <div class="site-heading text-center">
+                  <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Schema</h2>
+                  <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+                </div>
+                <div class="content">
+                  <embed type="image/svg+xml" src="assets/img/schema.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section End -->
+
+    <!-- Content Section -->
+     <div id="content" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Content Description</h2>
+          <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          <h2 class="section-title"><a>Artists</a></h2>
+              <div class="tab" role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation"><a href="#Section1" role="tab" data-toggle="tab">Followers</a></li>
+                      <li role="presentation"><a href="#Section2" role="tab" data-toggle="tab">Popularity</a></li>
+                      <li role="presentation"><a href="#Section3" role="tab" data-toggle="tab">Artist Type</a></li>
+                      <li role="presentation"><a href="#Section4" role="tab" data-toggle="tab">Main Genre</a></li>
+                      <li role="presentation"><a href="#Section5" role="tab" data-toggle="tab">Genres</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content tabs">
+                      <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                          <p>Information about the followers of the artist.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section2">
+                          <p>The popularity of the artist. The value will be between 0 and 100, with 100 being the most popular. The artist’s popularity is calculated from the popularity of all the artist’s tracks.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section3">
+                          <p>The type of the artists: one of "singer", "band", "duo" or "rapper".</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section4">
+                          <p>The main genre in which the artist is associated with.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section5">
+                          <p>A list of the genres the artist is associated with. For example: "Prog Rock", "Post-Grunge". (If not yet classified, the array is empty.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>        
+      </div>
+
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title"><a>Albums</a></h2>
+              <div class="tab" role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation"><a href="#Section6" role="tab" data-toggle="tab">Artists</a></li>
+                      <li role="presentation"><a href="#Section7" role="tab" data-toggle="tab">Popularity</a></li>
+                      <li role="presentation"><a href="#Section8" role="tab" data-toggle="tab">Total Tracks</a></li>
+                      <li role="presentation"><a href="#Section9" role="tab" data-toggle="tab">Album Type</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content tabs">
+                      <div role="tabpanel" class="tab-pane fade in active" id="Section6">
+                          <p>The artists of the album.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section7">
+                          <p>The popularity of the album. The value will be between 0 and 100, with 100 being the most popular. The popularity is calculated from the popularity of the album’s individual tracks.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section8">
+                          <p>The total number of tracks.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section9">
+                          <p>The type of the album: one of "album", "single" or "compilation".</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>        
+      </div>
+
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title"><a>Songs</a></h2>
+              <div class="tab" role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation"><a href="#Section12" role="tab" data-toggle="tab">Artists</a></li>
+                      <li role="presentation"><a href="#Section13" role="tab" data-toggle="tab">Popularity</a></li>
+                      <li role="presentation"><a href="#Section14" role="tab" data-toggle="tab">Explicit</a></li>
+                      <li role="presentation"><a href="#Section15" role="tab" data-toggle="tab">Song Type</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content tabs">
+                      <div role="tabpanel" class="tab-pane fade in active" id="Section12">
+                          <p>The artists who performed the track.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section13">
+                          <p>The popularity of the track. The value will be between 0 and 100, with 100 being the most popular. The popularity of a track is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by algorithm and is based, in the most part, on the total number of plays the track has had and how recent those plays are. Generally speaking, songs that are being played a lot now will have a higher popularity than songs that were played a lot in the past. Duplicate tracks (e.g. the same track from a single and an album) are rated independently. Artist and album popularity is derived mathematically from track popularity. Note that the popularity value may lag actual popularity by a few days: the value is not updated in real time.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section14">
+                          <p>Whether or not the track has explicit lyrics <mark>true = yes</mark> it does; <mark>false = no</mark> it does not OR unknown.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section15">
+                          <p>The type of the song: one of "solo songs" (with only one artist present in its execution) or "collaborative songs" (where there is more than one artist).</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>        
+      </div>
+
+      <br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title"><a>Acoustic Features</a></h2>
+              <div class="tab" role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation"><a href="#Section18" role="tab" data-toggle="tab">Key</a></li>
+                      <li role="presentation"><a href="#Section19" role="tab" data-toggle="tab">Mode</a></li>
+                      <li role="presentation"><a href="#Section20" role="tab" data-toggle="tab">Time Signature</a></li>
+                      <li role="presentation"><a href="#Section21" role="tab" data-toggle="tab">Acousticness</a></li>
+                      <li role="presentation"><a href="#Section22" role="tab" data-toggle="tab">Danceability</a></li>
+                      <li role="presentation"><a href="#Section23" role="tab" data-toggle="tab">Energy</a></li>
+                      <li role="presentation"><a href="#Section24" role="tab" data-toggle="tab">Instrumentalness</a></li>
+                      <li role="presentation"><a href="#Section25" role="tab" data-toggle="tab">Liveness</a></li>
+                      <li role="presentation"><a href="#Section26" role="tab" data-toggle="tab">Loudness</a></li>
+                      <li role="presentation"><a href="#Section27" role="tab" data-toggle="tab">Speechiness</a></li>
+                      <li role="presentation"><a href="#Section28" role="tab" data-toggle="tab">Valence</a></li>
+                      <li role="presentation"><a href="#Section29" role="tab" data-toggle="tab">Tempo</a></li>
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content tabs">
+                      <div role="tabpanel" class="tab-pane fade" id="Section18">
+                          <p>The estimated overall key of the track. Integers map to pitches using standard <a href="https://en.wikipedia.org/wiki/Pitch_class">Pitch Class</a> notation. If no key was detected, the value is -1.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section19">
+                          <p>Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section20">
+                          <p>An estimated overall time signature of a track. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure).</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section21">
+                          <p>A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section22">
+                          <p>Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section23">
+                          <p>Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section24">
+                          <p>Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section25">
+                          <p>Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section26">
+                          <p>The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section27">
+                          <p>Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section28">
+                          <p>A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).</p>
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="Section29">
+                          <p>The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+    <!-- Content Section End -->
+
+
 
     <!-- Blog Section -->
     <section id="blog" class="section-padding">
@@ -506,6 +720,7 @@
     <!-- End Preloader -->
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="assets/js/jquery-min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -523,6 +738,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       
   </body>
 </html>

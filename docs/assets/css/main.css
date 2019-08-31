@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
+
 html {
   overflow-x: hidden;
 }
@@ -59,7 +60,7 @@ ul li, ol li {
 }
 
 a:not([href]):not([tabindex]) {
-  color: #fff;
+  color: #CECECE;
 }
 
 .section-header {
@@ -1929,4 +1930,52 @@ textarea {
 
 .social-icon .domain:hover {
   background: #F63854;
+}
+
+/* TAB */
+
+/*a:hover,a:focus{
+  text-decoration: none;
+  outline: none;
+}*/
+
+.nav-tabs {
+  border-bottom: 1px solid #c4c4c4;
+}
+.nav-tabs > li > a{
+  float: left;
+  border-radius: 0px;
+  border: 1px solid #e4e4e4;
+  border-top: 2px solid #e4e4e4;
+  border-right: 0px none;
+  margin-right: 0px;
+  padding: 8px 17px;
+  transition:0.3s ease;
+  background: #F8F8F8;
+  color:#222222;
+}
+.nav-tabs > li:last-child{
+  border-right:1px solid #e4e4e4;
+}
+.nav-tabs > li > a:hover{
+  border: 1px solid #e4e4e4;
+  border-top: 2px solid #F98394;
+  border-right: 0px none;
+  background: #F8F8F8;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+  border-top: 2px solid #F63854;
+  color:#222222;
+  border-right: 0px none;
+}
+.tab-content > .tab-pane{
+  border: 1px solid #c4c4c4;
+  border-top: 0px none;
+  padding: 30px;
+  line-height: 22px;
+}
+.nav-tabs > li.active:hover > a{
+  border-top-color:#F98394;
 }
