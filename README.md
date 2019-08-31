@@ -19,7 +19,7 @@ The attractive features of [MusicOSet][MusicOSet] include:
 
 This is a **pre-publication release**. As such, this repository as well as the data are subject to change. 
 
-### Dataset Statistics
+## Dataset Statistics
 
 ---
 **Data** | **# Records**
@@ -31,6 +31,10 @@ Lyrics | 20,768
 Acoustic Features | 20,728
 Genres | 950
 ---
+
+## Schema
+
+<img src="docs/assets/img/schema.svg" align="right" />
 
 ## Format and Usage
 
