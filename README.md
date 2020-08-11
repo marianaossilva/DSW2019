@@ -17,8 +17,6 @@ The attractive features of [MusicOSet][MusicOSet] include:
 * Availability of acoustic and lyrical resources
 * Unrestricted access in two formats: SQL database and compressed .csv files
 
-This is a **pre-publication release**. As such, this repository as well as the data are subject to change. 
-
 ## Dataset Statistics
 
 ---
@@ -60,17 +58,17 @@ Genres | 1,561
 [SAC]: https://dl.acm.org/citation.cfm?id=3297280.3297483
 [WEB]: https://homepages.dcc.ufmg.br/~mirella/projs/bade/
 
-<!-- ## Source (citation)
+## Source (citation)
 
   ```
-  @inproceedings{fma_dataset,
-    title = {FMA: A Dataset for Music Analysis},
-    author = {Defferrard, Micha\"el and Benzi, Kirell and Vandergheynst, Pierre and Bresson, Xavier},
-    booktitle = {18th International Society for Music Information Retrieval Conference},
-    year = {2017},
-    url = {https://arxiv.org/abs/1612.01840},
+  @InProceedings{silva2019musicoset,
+  title     = {{MusicOSet: An Enhanced Open Dataset for Music Data Mining}},
+  author    = {Silva, Mariana O. and Rocha, La\'{\i}s M. and Moro, Mirella M.},
+  booktitle = {{XXXIV} Simp{\'{o}}sio Brasileiro de Banco de Dados: Dataset Showcase Workshop, {SBBD} 2019 Companion},
+  address   = {Fortaleza, CE, Brazil},
+  year      = {2019}
   }
-  ``` -->
+  ```
 
 ## License
 
